@@ -7,12 +7,12 @@ export async function checkBalance() {
     let meterIds = [
       { meterId: "661120153801", name: "1 - East" },
       { meterId: "661120153802", name: "1 - West" },
-      //   { meterId: "661120153803", name: "3 - East" },
-      //   { meterId: "661120153804", name: "4 - East" },
-      //   { meterId: "661120153805", name: "5 - West" },
-      //   { meterId: "661120153806", name: "6 - West" },
-      //   { meterId: "661120153807", name: "7 - West" },
-      //   { meterId: "661120153808", name: "1 - East" },
+      { meterId: "661120153803", name: "3 - East" },
+      { meterId: "661120153804", name: "4 - East" },
+      { meterId: "661120153805", name: "5 - West" },
+      { meterId: "661120153806", name: "6 - West" },
+      { meterId: "661120153807", name: "7 - West" },
+      { meterId: "661120153808", name: "1 - East" },
     ];
 
     console.log("checkBalance running start");
